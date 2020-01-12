@@ -1,10 +1,11 @@
 ---
 title: An Interactive Game &mdash; Step On the White Tiles!
 date: 2019-05-03 00:02:03
-categories: Projects
+categories: 
+    - Projects
 tags:
-- embedded systems
-- projects
+    - embedded systems
+    - Projects
 comments: true
 mathjax: true
 # This works with hexo-renderer-kramed;
@@ -76,16 +77,16 @@ In common sense, every memory address in a CPU corresponds to some place which c
 
 APB (Advanced Peripheral Bus) is used as an interface to access these peripherals. A typical APB consists of the following signal (by naming convention):
 
-| Signal Name   | Meaning       |
-|:-------------:| ------------- |
-| `PRDATA`      | Data line where CPU reads from the peripheral. |
-| `PWDATA`      | Data line where CPU writes to the peripheral. |
-| `PWRITE`      | Indicates whether it is a **read** or a **write** transaction. |
-| `PENABLE`     | Indicates whether CPU has started the transaction. |
-| `PSEL`        | Indicates whether CPU has selected this peripheral. |
-| `PADDR`       | Indicates what address CPU has chosen to interact with. |
-| `PCLK`        | Clock signal from CPU. |
-| `PREADY`      | **Controlled by peripheral;** indicates whether peripheral has been prepared for the transaction. |
+| Signal Name | Meaning                                                                                           |
+| :---------: | ------------------------------------------------------------------------------------------------- |
+|  `PRDATA`   | Data line where CPU reads from the peripheral.                                                    |
+|  `PWDATA`   | Data line where CPU writes to the peripheral.                                                     |
+|  `PWRITE`   | Indicates whether it is a **read** or a **write** transaction.                                    |
+|  `PENABLE`  | Indicates whether CPU has started the transaction.                                                |
+|   `PSEL`    | Indicates whether CPU has selected this peripheral.                                               |
+|   `PADDR`   | Indicates what address CPU has chosen to interact with.                                           |
+|   `PCLK`    | Clock signal from CPU.                                                                            |
+|  `PREADY`   | **Controlled by peripheral;** indicates whether peripheral has been prepared for the transaction. |
 
 By convention, in terms of APB, the CPU is called "master" while the peripherals are called "slaves". While signals are generally high/low voltages which is in essence a hardware issue, APB makes generating these signals with C code possible.
 
@@ -225,13 +226,13 @@ On the back of the NES controller, it is actually organized as the following fig
 
 We can see that there're five wires: brown, red, orange, yellow, white. The functions of these wires are summarized below.
 
-| Signal Name   | Meaning       |
-|:-------------:|:-------------:|
-| `GND`      | Brown |
-| `clock`      | Red |
-| `latch`      | Orange |
-| `data_out`     | Yellow |
-| `5V`        | White |
+| Signal Name | Meaning |
+| :---------: | :-----: |
+|    `GND`    |  Brown  |
+|   `clock`   |   Red   |
+|   `latch`   | Orange  |
+| `data_out`  | Yellow  |
+|    `5V`     |  White  |
 
 The states of the 8 buttons (pressed/not pressed) will be provided at the `data_out` line, bit by bit. The `latch` and the `clock` line are used to control the clocking of the `data_out` data line. In order to get the button states from the NES controller, we need to perform the following steps.
 
@@ -336,11 +337,11 @@ We use [Sparkfun's $20\times4$ serial enabled LCD display](https://www.sparkfun.
 
 It is worth noticing that this LCD module displays characters based on the position of a cursor. This is very similar to writing on a text file. The character sent to the module will always be written at the position of the cursor. For instance, if the current cursor position is at the first position of the first line, the incoming character `a` will then be displayed at the first position in the first line. What is worth mentioning is that there are some special ASCII character pairs that have special meanings and have been hard-coded into the LCD module. For example, some of these special characters are:
 
-| Character Value   | Meaning       |
-|:-------------:|:-------------|
-| `0xFE, 0x01`      | Clear the entire display. |
-| `0xFE, 0x80`      | Set cursor position to be the first position in the 1<sup>st</sup> line. The 20 values starting from `0x80` correspond to the cursor positions from the beginning of the 1<sup>st</sup> line to the end of the first line. For the first position in the 2<sup>nd</sup> line, add 64 to `0x80`; for the first position of the 3<sup>rd</sup> line, add 20 to `0x80`; for the first position of the 4<sup>th</sup> line, add 84 to `0x80`. |
-| `0x12`      | Reset the whole module. |
+| Character Value | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| :-------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  `0xFE, 0x01`   | Clear the entire display.                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|  `0xFE, 0x80`   | Set cursor position to be the first position in the 1<sup>st</sup> line. The 20 values starting from `0x80` correspond to the cursor positions from the beginning of the 1<sup>st</sup> line to the end of the first line. For the first position in the 2<sup>nd</sup> line, add 64 to `0x80`; for the first position of the 3<sup>rd</sup> line, add 20 to `0x80`; for the first position of the 4<sup>th</sup> line, add 84 to `0x80`. |
+|     `0x12`      | Reset the whole module.                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ***Note. Two bytes separated by a comma means a consecutive ASCII character pair.* For instance, `0xFE, 0x80` means `0xFE` should be first sent to the LCD module, followed by a `0x80`.**
 
