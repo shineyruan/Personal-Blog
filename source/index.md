@@ -5,7 +5,7 @@ comments: false
 # pdf: true
 ---
 
-Welcome to my personal website! I am a junior in computer science engineering in the University of Michigan, with a second degree in electrical and computer engineering (ECE) in Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). The latest copy of my resume can be accessed via [this link](https://drive.google.com/file/d/1p0_qbE0srY9t79gwKw7Alh6ghfKIZKnU/view?usp=sharing).
+Welcome to my personal website! I am a senior in computer science engineering in the University of Michigan, with a second degree in electrical and computer engineering (ECE) in Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my CV is attached [at the end of introduction](#curriculum-vitae).
 
 <!-- more -->
 
@@ -18,12 +18,17 @@ With the advantage of being enrolled in a dual-degree program, I have taken a li
 * Electromagnetics
 * Signals and Systems
 * Logic Circuit Design
+* Analog Circuits
 * Data Structures and Algorithms
 * Computer Architecture
 * Embedded Systems Design
 * Computing Theory
 * Probability Theory
 * Machine Learning
+* Autonomous Robotics
+* Computer Vision
+* CUDA Programming
+* Operating Systems
 
 # Skills
 
@@ -31,11 +36,13 @@ A list of skills that I've acquired from my experience includes but is not limit
 
 * C
 * C++
-* Python in machine learning
+* CUDA
+* Python in machine learning/computer vision
 * MATLAB
 * LaTeX
 * FPGA programming
 * ARM Cortex-M3 project development
+* LCM/ROS development
 
 # My Posts
 
@@ -65,3 +72,9 @@ Besides computer science, I'm also fond of photography as well as going around t
 * [Zhuhai, China &mdash; Home, Sweet Home](https://shineyruan.github.io/2019/03/05/Zhuhai/)
 
 **--- *End of Introduction* ---**
+
+# Curriculum Vitae
+
+A latest copt of my CV can be found here. 
+
+{% pdf /pdf/cv.pdf %}
