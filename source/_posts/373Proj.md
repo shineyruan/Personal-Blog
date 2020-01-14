@@ -5,7 +5,6 @@ categories:
     - Projects
 tags:
     - embedded systems
-    - Projects
 comments: true
 mathjax: true
 # This works with hexo-renderer-kramed;
