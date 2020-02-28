@@ -20,7 +20,7 @@ Ann Arbor is the place for me to pursue my second bachelor's degree in the Unive
 
 ![](/images/190905_RZH4923.jpg)
 
-*Route 23 of the Ann Arbor city bus arriving at CCTC (Centra Campus Transit Center). As only route 23 and 65 pass by where I live, I can only take these two routes to Central Campus. As a result, watching route 23 bus arriving at CCTC has been a very warm scene for me, as it basically tells me "Hey! Yur bus is coming. You can go home."*
+*Route 23 of the Ann Arbor city bus arriving at CCTC (Centra Campus Transit Center). As only route 23 and 65 pass by where I live, I can only take these two routes to Central Campus. As a result, watching route 23 bus arriving at CCTC has been a very warm scene for me. It basically tells me "Hey! Your bus is coming. You can go home."*
 
 ![](/images/190905_RZH4937.jpg)
 
