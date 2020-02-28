@@ -7,7 +7,6 @@ tags:
     - film
 category: 
     - My Gallery
-    - Footprints
 ---
 
 Of all the places I've been to, Zhuhai, by no doubt, is the most special one to me. As I grew up, countless changes have taken place in this city. People went and people came, and the city developed fast.

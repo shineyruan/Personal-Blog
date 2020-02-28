@@ -6,7 +6,6 @@ tags:
     - film
 category: 
     - My Gallery
-    - Footprints
 ---
 
 Dearborn is a small town located near Detroit, 36 miles east of Ann Arbor.
