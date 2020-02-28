@@ -14,7 +14,7 @@ Along with Dublin, I also visited the second-largest city in Ireland, Cork, and 
 
 Although Cork has been the second largest city of Ireland, it is still relatively small and looks more like a peaceful town. In Cork there is a famous English market where all kinds of Atlantic seefood, meat, fruits, and flowers are sold. The city was small but really peaceful, with a small river passing through the city center.
 
-![](/images/_RZH37644.jpg)
+![](/images/RZH37644.jpg)
 
 *"Hello, Cork!"*
 
@@ -34,4 +34,4 @@ Although Cork has been the second largest city of Ireland, it is still relativel
 
 Cliffs of Moher faces towards the great Atlantic Ocean. It is a wonderful place with magnificent views.
 
-![](/images/_RZH38723.jpg)
+![](/images/RZH38723.jpg)

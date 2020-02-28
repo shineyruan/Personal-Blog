@@ -25,8 +25,8 @@ To my great surprise, street performing seems to be a very popular activity in D
 
 "The Twenty Tour" is one of the major concert tours of Westlife after their reunion. I could hardly find a proper word to describe my excitement at the concert due to my poor vocabulary. It was really exciting, magnificent, and wonderful.
 
-![](/images/_RZH4148.jpg)
-![](/images/_RZH403524.jpg)
-![](/images/_RZH410822.jpg)
-![](/images/_RZH415721.jpg)
-![](/images/_RZH418626.jpg)
+![](/images/RZH4148.jpg)
+![](/images/RZH403524.jpg)
+![](/images/RZH410822.jpg)
+![](/images/RZH415721.jpg)
+![](/images/RZH418626.jpg)

@@ -26,11 +26,11 @@ Ann Arbor is the place for me to pursue my second bachelor's degree in the Unive
 
 *Sunset shining on a oversized truck passing through North Campus on Plymouth Rd. It was a really beautiful sunset that day, and all the surroundings were so beautiful.*
 
-![](/images/_RZH4586A190807.jpg)
+![](/images/RZH4586A190807.jpg)
 
 *A U-M magic bus passing through Northwood on North Campus during the summer.*
 
-![](/images/_RZH4584A190803.jpg)
+![](/images/RZH4584A190803.jpg)
 
 *A tiny piece of sunset shining on the stem of a big tree. A nice contrast of orange and green.*
 
@@ -39,19 +39,19 @@ Ann Arbor is the place for me to pursue my second bachelor's degree in the Unive
 It was really wonderful for me to find that, during the summer, the town of Ann Arbor was getting more and more busy. One of the major activities in Ann Arbor in summer is the Summer Festival, in which a lot of artists and artisans would come and show off their great works. With excitement, I went to the festival, and received lots of great memories.
 
 <p align="center">
-    <img src="/images/_RZH4438G190722.jpg" alt="Championship of an SJTU badminton Team Competition." width="500">
+    <img src="/images/RZH4438G190722.jpg" width="500">
 
 *A very interesting reflection of two visitors in a small puddle, reflecting the business of the summer festival.*
 
-![](/images/_RZH4419B190722.jpg)
+![](/images/RZH4419B190722.jpg)
 
 *A lot of decorative CDs and records were on sale in the Ann Arbor Summer Festival. All of them are crafted into different shapes.*
 
-![](/images/_RZH4464J190722.jpg)
+![](/images/RZH4464J190722.jpg)
 
 *A tricycle man is riding several passengers on the street with his tricycle full of ads.*
 
-![](/images/_RZH4482K190722.jpg)
+![](/images/RZH4482K190722.jpg)
 
 *A dancer is doing street dancing to attract people's attention. He was particularly dancing to me at that instant to show off his dancing skills.*
 
@@ -59,10 +59,10 @@ It was really wonderful for me to find that, during the summer, the town of Ann 
 
 In August, FC Barcelona came to Michigan Stadium and had a match with S.S.C. Napoli. Why having a soccer match at Michigan? I would say, it was definitely because Michigan Stadium is the largest stadium in the US, the third largest stadium across the world! Although it was not an important match for the two soccer clubs, it was still really exciting. With no surprise, FC Barcelona finally won the game.
 
-![](/images/_RZH4644190812A.jpg)
+![](/images/RZH4644190812A.jpg)
 
 *Before the match, soccer players are doing their final practice.*
 
-![](/images/_RZH4770190812C.jpg)
+![](/images/RZH4770190812C.jpg)
 
 *FC Barcelona &mdash; goal!*
