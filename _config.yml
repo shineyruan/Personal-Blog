@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Ryan's Blog
+subtitle: CS @UM | ECE @SJTU
+description: Code and Photography.
 keywords:
-author: John Doe
+author: Zhihao (Ryan) Ruan
 language: en
-timezone: ''
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -33,12 +33,12 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: page
 titlecase: false # Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
+  enable: false # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 
@@ -56,8 +56,9 @@ highlight:
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
+# Use https://github.com/hexojs/hexo-generator-index
 index_generator:
-  path: ''
+  path: "/allposts"
   per_page: 10
   order_by: -date
 
@@ -93,9 +94,61 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:shineyruan/shineyruan.github.io.git
+  branch: master
+  name: Zhihao Ruan
+  email: ruanzh@umich.edu
+
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Show number of visitors of each article.
+# You can visit https://leancloud.cn to get AppID and AppKey.
+# AppID and AppKey are recommended to be the same as valine's for counter compatibility.
+# Do not enable both `valine.visitor` and `leancloud_visitors`.
+leancloud_counter_security:
+  enable_sync: true
+  app_id: VrgyOMEUcHPEUQybjvmTH6nm-MdYXbMMI
+  app_key: BteMiVUs2vSEDl4FcsJiwzAy
+  username: shineyruan # Will be asked while deploying if is left blank
+  password: This4now+1s # Recommmended to be left blank. Will be asked while deploying if is left blank
+
+# Post wordcount display settings
+# Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+
+# Image Caption in HTML description field
+# add caption for iamges
+image_caption:
+  enable: true #false to disable
+  class_name: #if you wanna customize the style for the caption,you can assign a class name, default is 'image-caption'
+
+# image_caption will have some kind of conflict with hexo-renderer-pandoc!!
+# for latex support, use hexo-renderer-kramed!
+
+# LaTeX Support
+# https://github.com/sun11/hexo-renderer-kramed
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
