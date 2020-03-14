@@ -10,6 +10,8 @@ category:
 
 Last summer, I went to Ireland for a trip. As a fan of the Irish boy band Westlife, I was really lucky to be able to get a ticket to their concert at Croke Park in Dublin. Meanwhile, I also had a chance to explore Dublin, a city with bars and Irish folk music.
 
+<!-- more -->
+
 # Street Performers in Downtown Dublin
 
 To my great surprise, street performing seems to be a very popular activity in Dublin. Walking in the streets in the city you could find a lot of street performers playing all kinds of musical instruments. Most of them are performing with great passion and happiness, as if they were just playing music on the street not for their living, but for fun.

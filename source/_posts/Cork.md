@@ -10,6 +10,8 @@ category:
 
 Along with Dublin, I also visited the second-largest city in Ireland, Cork, and the famous Cliffs of Moher, during my trip to Ireland last summer. 
 
+<!-- more -->
+
 # Cork
 
 Although Cork has been the second largest city of Ireland, it is still relatively small and looks more like a peaceful town. In Cork there is a famous English market where all kinds of Atlantic seefood, meat, fruits, and flowers are sold. The city was small but really peaceful, with a small river passing through the city center.
