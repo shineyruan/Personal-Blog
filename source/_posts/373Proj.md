@@ -11,16 +11,18 @@ mathjax: true
 # don't use hexo-renderer-pandoc
 ---
 
-> Probably one of the best interactive game projects I have seen in the class.
->
-> <p align="right"> --- <i>Prof. Alanson Sample and Prof. Matt Smith, the University of Michigan</i></p>
+{% blockquote [Prof. Alanson Sample and Prof. Matt Smith, University of Michigan] %}
+Probably one of the best interactive game projects I have seen in the class.
+{% endblockquote %}
+
+<br>
 
 **>>> *This project is developed together with [Regina (Jingliang Ren)](https://regina8023.github.io), [Ken (Kun Huang)](https://voyager1998.github.io) and Shiyu Liu.***
 **>>> *This post is written in shared effort with [Regina (Jingliang Ren)](https://regina8023.github.io).***
 **>>> *Special thanks to them for all their contributions!***
 <!--more-->
 
-In the passing winter semester, I took a very interesting course: [*Introduction to Embedded System Design (EECS 373)*](http://www.eecs.umich.edu/courses/eecs373/lectures.html). I've learnt memory-mapped I/O, interrupt, timer and many other important concepts in embedded system. The target of this course is to build an embedded system using a specific kind of development board -- [Actel SmartFusion&reg; SoC FPGA](https://en.wikipedia.org/wiki/Actel_SmartFusion).
+In the passing winter semester, I took a very interesting course: [*Introduction to Embedded System Design (EECS 373)*](http://www.eecs.umich.edu/courses/eecs373/lectures.html). I've learned memory-mapped I/O, interrupt, timer and many other important concepts in embedded system. The target of this course is to build an embedded system using a specific kind of development board -- [Actel SmartFusion&reg; SoC FPGA](https://en.wikipedia.org/wiki/Actel_SmartFusion).
 
 Our final project is "Step on the White Tiles", which is inspired by a popular mobile game *Don't Tap the White Tiles (Chinese: 别踩白块)*. This is one of my proudest projects, so I'd like to write a blog to record this project experience and share these fun technical details with more people!
 
@@ -211,11 +213,13 @@ We can see that it consists of 8 buttons: Up, Down, Left, Right, Select, Start, 
 
 For more details, [a document that I have referred to](http://uzebox.org/files/NES-controller-Hydra-Ch6All-v1.0.pdf) when programming the NES controller says that:
 
->The Nintendo Entertainment System or NES, also known as the Nintendo Family Computer (Famicom) was released in Japan in 1983 and shortly after in the USA in 1985. The system was even more successful than the Atari 2600 and more or less put the last stake in the heart of Atari home consoles forever. The NES sold more than 60,000,000 units worldwide in its heyday and still sells to this day (I just bought 4 of them from eStarland.com)! There are over 200 clones of the system in circulation and the word "Nintendo" is used in many cultures as a youth slang term with many "varied" meanings.
->
->The system itself was nothing compared to the Propeller chip’s computing power, the NES was powered by the 8-bit 6502 running at 1.79 MHz, but the NES did have quite a bit of dedicated graphics hardware making it quite a contender in the 8-bit era, it sported multiple tile maps, graphics planes, sprites, sound, and a lot more.
->
-> <p align="right"> --- <i>"Game Programming for the Propeller Powered HYDRA"</i>, pp. 95 </p>
+{% blockquote [<i>"Game Programming for the Propeller Powered HYDRA"</i>, pp. 95] %}
+
+The Nintendo Entertainment System or NES, also known as the Nintendo Family Computer (Famicom) was released in Japan in 1983 and shortly after in the USA in 1985. The system was even more successful than the Atari 2600 and more or less put the last stake in the heart of Atari home consoles forever. The NES sold more than 60,000,000 units worldwide in its heyday and still sells to this day (I just bought 4 of them from eStarland.com)! There are over 200 clones of the system in circulation and the word "Nintendo" is used in many cultures as a youth slang term with many "varied" meanings.
+
+The system itself was nothing compared to the Propeller chip’s computing power, the NES was powered by the 8-bit 6502 running at 1.79 MHz, but the NES did have quite a bit of dedicated graphics hardware making it quite a contender in the 8-bit era, it sported multiple tile maps, graphics planes, sprites, sound, and a lot more.
+
+{% endblockquote %}
 
 ### Interfacing the Nintendo NES controller
 
