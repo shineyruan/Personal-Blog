@@ -77,6 +77,6 @@ Besides computer science, I'm also fond of photography as well as travelling aro
 
 # Curriculum Vitae
 
-A latest copt of my CV can be found here. 
+A latest copy of my CV can be found here. 
 
 {% pdf /pdf/cv.pdf %}
