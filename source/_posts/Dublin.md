@@ -1,5 +1,5 @@
 ---
-title: Dublin
+title: Dublin, Ireland
 date: 2020-02-28 16:36:02
 tags: 
     - photography 

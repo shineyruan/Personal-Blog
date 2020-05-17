@@ -1,5 +1,5 @@
 ---
-title: Cork, and the Cliffs of Moher
+title: Cork, Ireland, and the Cliffs of Moher
 date: 2020-02-28 16:53:27
 tags: 
     - photography 
