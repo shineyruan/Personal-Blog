@@ -67,6 +67,7 @@ I have recorded a number of my own projects [here](https://zhihaoruan.xyz/catego
 
 Besides computer science, I'm also fond of photography as well as travelling around the world. I love to write travel journals to commemorate those precious moments.
 
+* [Michigan, USA](https://zhihaoruan.xyz/2020/05/17/Michigan/)
 * [Cork, Ireland, and the Cliffs of Moher](https://zhihaoruan.xyz/2020/02/28/Cork/)
 * [Dublin, Ireland](https://zhihaoruan.xyz/2020/02/28/Dublin/)
 * [Ann Arbor, MI](https://zhihaoruan.xyz/2019/04/09/Ann-Arbor/)
