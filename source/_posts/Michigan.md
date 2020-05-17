@@ -19,7 +19,7 @@ The views in the west part of Michigan mainly comes from Lake Michigan, which is
 
 ![Lake Michigan and the surrounding states](/images/lake-michigan.png)
 
-During the past summer, I have visited several towns by Lake Michigan, including Muskegon, Pentwater, Manistee, Traverse City, and the famous Sleeping Beat Dunes.
+During the past summer, I have visited several towns by Lake Michigan, including Muskegon, Pentwater, Manistee, Traverse City, and the famous Sleeping Bear Dunes.
 
 ![](/images/CZQ190818DSC01882.jpg)
 
