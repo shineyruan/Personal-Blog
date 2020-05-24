@@ -9,9 +9,9 @@ date: 2020-05-24 00:38:02
 ---
 
 
-Hong Kong has been one of the fastest developing metropolis in China. When I was young, my impression of Hong Kong came with the Hong Kong TV shows. Hongkongers were so good at joking and acting that their movies and TV shows have had significant influences on me, especially with the fact that I can speak Cantonese :-). Not only me but also Chinese people in the 1980s and 1990s were greatly influenced by Hong Kong cultures.
+Hong Kong has been one of the fastest developing metropolis in China. When I was young, my impression of Hong Kong came with the Hong Kong TV shows. Hongkongers were so good at joking and acting that their movies and TV shows have had significant influences on me, especially with the fact that I can understand Cantonese :-). Not only me but also Chinese people in the 1980s and 1990s were greatly influenced by Hong Kong cultures.
 
-Hong Kong was famous for its fast-developing metropolitan scenery, with a local nickname as "Forest of Steel/Urban Forest" (Chinese: 钢铁森林). Personally I think the nickname really describes the essence of Hong Kong &mdash; a place full of so many skyscrapers that almost covers the sky!
+Hong Kong is famous for its fast-developing metropolitan scenery, with a local nickname as "Forest of Steel/Urban Forest" (Chinese: 钢铁森林). Personally I think the nickname really describes the essence of Hong Kong &mdash; a place full of so many skyscrapers that almost covers the sky!
 
 Hong Kong is also extremely crowded and busy. It is a tiny piece of land filled with millions of people. As a matter of fact, Hongkongers are experts in fully utilizing vertical spaces in every corner of the city.
 
