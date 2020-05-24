@@ -63,10 +63,15 @@ I have recorded a number of my own projects [here](https://zhihaoruan.xyz/catego
 * [Getting Started with Embedded Systems in Visual Studio Code](https://zhihaoruan.xyz/2019/04/29/vscode-stm32/)
 * [Wox &mdash; Making Your Windows 10 Better!](https://zhihaoruan.xyz/2019/04/29/wox-tutorials/)
 
-## Travel Journals
+## My Gallery
 
-Besides computer science, I'm also fond of photography as well as travelling around the world. I love to write travel journals to commemorate those precious moments.
+Besides computer science, I'm also fond of photography as well as travelling around the world. I love to write travel journals to commemorate those precious moments. 
 
+When I was travelling, a question that I have been constantly thinking about is "what kind of pictures could represent a city's culture?" Although a city might have different faces and it sounds impossible for me to reflect all of them in one single picture, I would try to use a series to document them. In my point of view, every single city/town on the earth has its unique culture. Only when one gets really close to the city dwellers can he/she really feels the unique culture of the place.
+
+The following posts are chapters of my travelling journals. Some of them record what I'm seeing in daily life, while the others might be trying to discover the city's culture. Hope you would enjoy my work.
+
+* [Hong Kong, China](https://zhihaoruan.xyz/2020/05/24/Hong-Kong/)
 * [Michigan, USA](https://zhihaoruan.xyz/2020/05/17/Michigan/)
 * [Cork, Ireland, and the Cliffs of Moher](https://zhihaoruan.xyz/2020/02/28/Cork/)
 * [Dublin, Ireland](https://zhihaoruan.xyz/2020/02/28/Dublin/)
