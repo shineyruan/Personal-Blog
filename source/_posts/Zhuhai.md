@@ -33,7 +33,7 @@ As a photographer, I have the feeling that it is my responsibility to record her
 
 ![](/images/DSC00071-11.jpg)
 
-*A typical old supermarket in Zhuhai. When I was small, my parents used to take me here every day after school. For six consecutive years, I bought a lot of things here: new LEGO toy bricks, new shoes, new pens and pencils, new bags, and of course, delicious snacks. This supermarket was once owned by [JUSCO (Chinese: 吉之岛)](https://en.wikipedia.org/wiki/JUSCO), but now the ownership has been transferred to a new corporation called AEON (Chinese: 永旺).*
+*A typical old supermarket in Zhuhai. When I was young, my parents used to take me here every day after school. For six consecutive years, I bought a lot of things here: new LEGO toy bricks, new shoes, new pens and pencils, new bags, and of course, delicious snacks. This supermarket was once owned by [JUSCO (Chinese: 吉之岛)](https://en.wikipedia.org/wiki/JUSCO), but now the ownership has been transferred to a new corporation called AEON (Chinese: 永旺).*
 
 ![](/images/DSC00000.jpg)
 ![](/images/DSC00066-8.jpg)
@@ -46,7 +46,7 @@ As a photographer, I have the feeling that it is my responsibility to record her
 
 ![](/images/RZH5982post.jpg)
 
-*Comebuy, one of the numerous boba tea shops in Zhuhai. Comebuy started their business in Zhuhai several years ago and was trying to expand their business all over China.*
+*Comebuy, one of the numerous bubble tea shops in Zhuhai. Comebuy started their business in Zhuhai several years ago and was trying to expand their business all over China.*
 
 ![](/images/DSC03425.jpg)
 
