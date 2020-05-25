@@ -66,3 +66,14 @@ In August, FC Barcelona came to Michigan Stadium and had a match with S.S.C. Nap
 ![](/images/RZH4770190812C.jpg)
 
 *FC Barcelona &mdash; goal!*
+
+# "Blue Hour" in Ann Arbor
+As I always finish my classes in the late afternoon, witnessing the beauty of the blue hour every day has been one of my favorite things. When the summer comes and the sky becomes clear, I finally got some chance to capture the romantic feelings in the blue hour.
+
+![](/images/RZH8715post.jpg)
+
+![](/images/RZH8728post.jpg)
+
+![](/images/RZH8725post.jpg)
+
+![](/images/RZH8735post.jpg)
