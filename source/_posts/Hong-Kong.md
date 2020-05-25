@@ -2,7 +2,7 @@
 title: 'Hong Kong, China'
 tags:
   - photography
-  - film
+  - city representation
 category:
   - My Gallery
 date: 2020-05-24 00:38:02

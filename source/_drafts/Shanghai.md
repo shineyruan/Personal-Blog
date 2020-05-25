@@ -2,7 +2,7 @@
 title: Shanghai, China
 tags: 
     - photography 
-    - film
+    - city representation
 category: 
     - My Gallery
 ---

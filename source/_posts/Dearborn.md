@@ -3,7 +3,7 @@ title: Dearborn, MI
 date: 2019-04-09 22:08:00
 tags: 
     - photography 
-    - film
+    - city representation
 category: 
     - My Gallery
 ---
