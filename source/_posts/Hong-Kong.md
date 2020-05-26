@@ -36,7 +36,7 @@ Hong Kong is also extremely crowded and busy. It is a tiny piece of land filled 
 
 ![](/images/DSC01157.jpg)
 
-*Hong Kong red taxi. Just as the famous yellow taxis in New York City, red taxi has also become a representation of Hong Kong*
+*Hong Kong red taxi. Just as the famous yellow taxis in New York City, red taxi has also become a representation of Hong Kong.*
 
 <p align="center">
     <img src="/images/DSC01042.jpg" alt="" width="500">
