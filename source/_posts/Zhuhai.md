@@ -1,10 +1,9 @@
 ---
 title: Zhuhai, China &mdash; Home, Sweet Home
 date: 2019-03-05 00:16:40
-updated: 2019-03-06 01:49:00
 tags: 
     - photography 
-    - film
+    - city representation
 category: 
     - My Gallery
 ---

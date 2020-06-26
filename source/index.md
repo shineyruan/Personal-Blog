@@ -5,7 +5,7 @@ comments: false
 # pdf: true
 ---
 
-Welcome to my personal website! I am an incoming robotics master's student at the University of Pennsylvania. I received my undergraduate degree in computer science engineering (CSE) at the University of Michigan, with a second degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my CV is attached at the end of introduction.
+Welcome to my personal website! I am an incoming robotics master's student at the University of Pennsylvania. I received my undergraduate degree in computer science engineering (CSE) at the University of Michigan, with a second degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my CV can be found [on my website](https://zhihaoruan.xyz/curriculum-vitae).
 
 <!-- more -->
 
@@ -80,9 +80,3 @@ The following posts are chapters of my travelling journals. Some of them record 
 * [Zhuhai, China &mdash; Home, Sweet Home](https://zhihaoruan.xyz/2019/03/05/Zhuhai/)
 
 **--- *End of Introduction* ---**
-
-# Curriculum Vitae
-
-A latest copy of my CV can be found here. 
-
-{% pdf /pdf/cv.pdf %}

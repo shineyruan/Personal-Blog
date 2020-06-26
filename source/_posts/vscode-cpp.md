@@ -31,7 +31,7 @@ As for finding a compiler for C/C++ program, I personally recommend *Clang for W
 4. Install MinGW-w64 anywhere (we're going to **uninstall it** after moving all its files away). Remember to select `x86-64` architecture when installing.
 5. Move all files from `mingw64` to `LLVM` (Image source: cite [here](https://www.zhihu.com/question/30315894)).
 
-![vscode-cpp](/images/screenshot-vscode-tutorial-5.jpg)
+![](/images/screenshot-vscode-tutorial-5.jpg)
 
 6. Uninstall MinGW-w64 by clicking `uninstall.exe`.
 7. Open Command Prompt, type in `clang -v`, and you should see the corresponding version. If you see something like "not recognized as the name of a cmdlet, function, script file, or operable program", you may have to add `C:\LLVM\bin` to the system PATH manually.
@@ -40,15 +40,15 @@ As for finding a compiler for C/C++ program, I personally recommend *Clang for W
    * C/C++ Clang Command Adapter (optional)
    * Code Runner (compile single source file with a right click)
    * One Dark Pro (optional, coding theme for VS Code)
-9. Create 3 JSON configuration files in a folder called `.vscode`:
+9.  Create 3 JSON configuration files in a folder called `.vscode`:
    * `tasks.json`
    * `launch.json`
    * `settings.json` (if you want to use these settings forever, copy the content of this file into the global user settings JSON file.)
-10. Create an empty folder on your computer.
-11. Open VS Code, and select "Open Folder...". Open the empty folder you just created.
-12. Create a folder called `.vscode` in VS Code.
-13. Create a JSON file called `tasks.json` in the .vscode folder.
-14. Copy the following content into your `tasks.json`:
+11. Create an empty folder on your computer.
+12. Open VS Code, and select "Open Folder...". Open the empty folder you just created.
+13. Create a folder called `.vscode` in VS Code.
+14. Create a JSON file called `tasks.json` in the .vscode folder.
+15. Copy the following content into your `tasks.json`:
 
 ```json
 // https://code.visualstudio.com/docs/editor/tasks
