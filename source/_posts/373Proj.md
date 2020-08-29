@@ -17,7 +17,7 @@ Probably one of the best interactive game projects I have seen in the class.
 
 <br>
 
-**>>> *This project is developed together with [Regina (Jingliang Ren)](https://regina8023.github.io), [Ken (Kun Huang)](https://voyager1998.github.io) and Shiyu Liu.***
+**>>> *This project is developed together with [Regina (Jingliang Ren)](https://regina8023.github.io), [Kun Huang](https://voyager1998.github.io) and Shiyu Liu.***
 **>>> *This post is written in shared effort with [Regina (Jingliang Ren)](https://regina8023.github.io).***
 **>>> *Special thanks to them for all their contributions!***
 <!--more-->
