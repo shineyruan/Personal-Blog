@@ -23,7 +23,7 @@ With the development of computer vision technology, nowadays it has become much 
 
 # Concept Generation
 <p align="center"></p>
-    <img src="/images/450_MorhologicalAnalysis.png" alt="Morphological chart." width="500">
+    <img src="/images/450_MorphologicalAnalysis.png" alt="Morphological chart." width="500">
 
 What constitutes to our product? First, in order to satisfy the basic requirements, our final product must be capable of detecting human traffic flow (i.e. pedestrians) through cameras. Therefore, there must be some part transforming the live video stream into detection results. As a result, we name this part an **object detector.** Second, we need to make sure that our system is capable of assigning "identities" to objects in the camera frame so that it could detect which person leaves the frame and which person enters the frame and we call this part an **object tracker.** Third, we wish to store a fixed amount of history data so that we could utilize it to predict future flow statistics changes. This means that we also need a **back-end server.** Last but not least, we'll have to display our flow analysis results somewhere. We decided to host them on a self-designed **front-end website.**
 
@@ -40,4 +40,4 @@ However, not all DNNs are suitable for our project. In fact, most of the state-o
 Finally, [MobileNet v2](https://arxiv.org/abs/1801.04381)-based [Single Shot MultiBox Detector](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) (MobileNet-SSD) becomes our final solution, because it is accurate, lightweight, and was specifically proposed for mobile devices. 
 
 ## Object Tracker: Kalman Filter
-Kalman filter is a probabilistic model that has been widely used in control theories and applications. Particularly, it emulates an object that has its own *hidden states* and can be *observed* by outer worlds through sensors. Once enough observations have been gathered and fed into the model, it is then able to 
+Kalman filter is a probabilistic model that has been widely used in control theories and applications. Particularly, it has its own *states* that are hidden from the outer world and only certain state properties can be *observed* by outer worlds through sensors. The main task of the model is to use a certain amount of observations to predict the next states of the model. Hence, we can utilize this property of Kalman filter 
