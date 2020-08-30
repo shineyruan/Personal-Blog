@@ -40,4 +40,15 @@ However, not all DNNs are suitable for our project. In fact, most of the state-o
 Finally, [MobileNet v2](https://arxiv.org/abs/1801.04381)-based [Single Shot MultiBox Detector](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) (MobileNet-SSD) becomes our final solution, because it is accurate, lightweight, and was specifically proposed for mobile devices. 
 
 ## Object Tracker: Kalman Filter
-Kalman filter is a probabilistic model that has been widely used in control theories and applications. Particularly, it has its own *states* that are hidden from the outer world and only certain state properties can be *observed* by outer worlds through sensors. The main task of the model is to use a certain amount of observations to predict the next states of the model. Hence, we can utilize this property of Kalman filter 
+Kalman filter is a probabilistic model that has been widely used in control theories and applications. Particularly, it has its own *states* that are hidden from the outer world and only certain state properties can be *observed* by outer worlds through sensors. The main task of the model is to use a certain amount of observations to predict the next states of the model. Hence, we can utilize this property of Kalman filter and construct one Kalman filter for each object that we're going to track. Once the Kalman filter is constructed, we can utilize the prediction of its position in the next frame and cross-check with the detection results of the next frame to determine whether this object is "disappeared."
+
+# Source Code
+Unfortunately, due to confidentiality agreement, the source code for this project is not available for now. However, users can always visit our front-end website https://www.umji-flowdetection.com/ for further reference. 
+
+# Acknowledgements
+For the entire work, I would like to express special thanks to:
+
+- our sponsors: Allen Zhu and Allan Zhu from UM-SJTU Joint Institute in Shanghai Jiao Tong University
+- my teammates: Jiayu Yi, Zekun LI, Zhikai Chen and Zihao Shen
+- my own passion!
+
