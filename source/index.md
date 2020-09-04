@@ -53,6 +53,8 @@ This blog is divided into several sections, and each of them contains a list of 
 I have recorded a number of my own projects [here](https://zhihaoruan.xyz/categories/Projects/) on this website. Some of these are course projects, while others may be research projects. Some of the featured projects are:
 
 * [An Interactive Game &mdash; Step On the White Tiles!](https://zhihaoruan.xyz/2019/05/03/373Proj/)
+* [SLAM — Simultaneous Localization And Mapping](https://zhihaoruan.xyz/2020/01/13/467slam/)
+* [Real-Time On-Device Flow Statistics Detection and Prediction](https://zhihaoruan.xyz/2020/08/29/450proj/)
 
 ## Tutorials
 
