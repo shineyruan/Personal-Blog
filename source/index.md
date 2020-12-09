@@ -5,7 +5,7 @@ comments: false
 # pdf: true
 ---
 
-Welcome to my personal website! I am an incoming robotics master's student at the University of Pennsylvania. I received my undergraduate degree in computer science engineering (CSE) at the University of Michigan, with a second degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my [CV](https://zhihaoruan.xyz/curriculum-vitae) and a copy of my [resume](https://zhihaoruan.xyz/resume) can both be found on my website.
+Welcome to my personal website! I am a first-year robotics master's student at the University of Pennsylvania. I received my undergraduate degree in computer science engineering (CSE) at the University of Michigan, with a second degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my [CV](https://zhihaoruan.xyz/curriculum-vitae) and a copy of my [resume](https://zhihaoruan.xyz/resume) can both be found on my website.
 
 <!-- more -->
 
@@ -13,23 +13,24 @@ Welcome to my personal website! I am an incoming robotics master's student at th
 
 With the advantage of being enrolled in a dual-degree program, I have taken a list of courses covering from electrical engineering to computer science, including but not limited to:
 
-* General Chemistry
 * Honors Physics
 * Electromagnetics
 * Signals and Systems
-* Logic Circuit Design
 * Analog Circuits
 * Semiconductor Devices
 * Data Structures and Algorithms
 * Computer Architecture
 * Embedded Systems Design
-* Computing Theory
-* Probability Theory
 * Machine Learning
 * Autonomous Robotics
 * Computer Vision
 * CUDA Programming
 * Operating Systems
+
+As a robotics master's student, I continue to explore a variety of areas closely related to robotics, include but not limited to
+* Computer Graphics &mdash; for robotic simulation & visualization
+* Linear Programming & Optimization &mdash; for robotic algorithm development
+* Deep Computer Vision &mdash; for robotic perception
 
 # Skills
 
@@ -37,12 +38,10 @@ A list of skills that I've acquired from my experience includes but is not limit
 
 * C/C++
 * CUDA
-* Python in machine learning/computer vision
-* MATLAB
-* LaTeX
-* FPGA programming
-* ARM Cortex-M3 project development
 * LCM/ROS development
+* Python in deep learning/computer vision
+* MATLAB
+* ARM Cortex-M3 project development
 
 # My Posts
 
