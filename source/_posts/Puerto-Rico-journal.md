@@ -1,10 +1,11 @@
 ---
-title: ¡HOLA! Puerto Rico &mdash; 波多黎各：逃离大雪的海边度假计划
+title: ¡HOLA! Puerto Rico — 波多黎各：逃离大雪的海边度假计划
 tags:
   - photography
 categories:
   - Travel Journals
 date: 2020-03-13 18:45:19
+img: /images/PR-cover.jpg
 ---
 
 2020年注定是不平凡的一年。毕业在即，申请季结束，心思也就像一匹脱缰的野马，飞到了遥远的异国他乡 &mdash; 是的，又到春假了，是该出去走走的时候了。然而COVID-19肺炎疫情突然爆发，原本辛辛苦苦讨论好的欧洲之行也随之泡汤。本着一颗不甘心留在大雪纷飞的北方过冬的心，波多黎各计划就此成行。

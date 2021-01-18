@@ -1,10 +1,11 @@
 ---
-title: Visual Studio Code &mdash; A Simple Tutorial
+title: Visual Studio Code — A Simple Tutorial
 date: 2019-03-15 16:22:40
 tags: 
     - vscode
 category: 
     - Tutorials
+img: /images/screenshot-vscode-tutorial-1.png
 ---
 Starting from 2019, my main development environment has turned from Visual Studio to Visual Studio Code. Although part of the reason is that I have to find a way to use Linux environment in Windows for my school work, the main reason is that I'm fascinated with its small installation size and great open-source extensions support (I don't want a dual system due to the small amount of available disk space on my PC; nor do I want a virtual machine as it is far too slow). Now, let's take a close look at this amazing editor and feel its magic power.
 

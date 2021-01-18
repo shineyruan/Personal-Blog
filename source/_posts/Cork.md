@@ -6,6 +6,7 @@ tags:
     - city representation
 category: 
     - My Gallery
+img: /images/RZH38723.jpg
 ---
 
 Along with Dublin, I also visited the second-largest city in Ireland, Cork, and the famous Cliffs of Moher, during my trip to Ireland last summer. 

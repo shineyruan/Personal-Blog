@@ -1,12 +1,15 @@
 ---
-title: An Interactive Game &mdash; Step On the White Tiles!
+title: An Interactive Game — Step On the White Tiles!
 date: 2019-05-03 00:02:03
 categories: 
     - Projects
 tags:
     - embedded systems
 comments: true
-mathjax: true
+cover: true
+coverImg: /images/373_diagram.png
+img: /images/373_diagram.png
+mathjax: false
 # This works with hexo-renderer-kramed;
 # don't use hexo-renderer-pandoc
 ---

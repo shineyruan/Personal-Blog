@@ -1,11 +1,12 @@
 ---
-title: Zhuhai, China &mdash; Home, Sweet Home
+title: Zhuhai, China — Home, Sweet Home
 date: 2019-03-05 00:16:40
 tags: 
     - photography 
     - city representation
 category: 
     - My Gallery
+img: /images/RZH5858post.jpg
 ---
 
 Of all the places I've been to, Zhuhai, by no doubt, is the most special one to me. I have been to almost everywhere in this city. As I grew up, countless changes have taken place in this city. People went and people came, and the city developed fast.

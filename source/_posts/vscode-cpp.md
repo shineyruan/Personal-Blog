@@ -6,6 +6,7 @@ tags:
     - c++
 category: 
     - Tutorials
+img: /images/screenshot-vscode-tutorial-1.png
 ---
 
 In the [previous post](https://shineyruan.github.io/2019/03/15/vscode-tutorials/) we have known that Visual Studio Code is a lightweight editor for small coding projects. However, you might still wonder how to actually take advantage of this small but powerful editor. In this post, we will see together how to write & compile C/C++ codes in Visual Studio Code.

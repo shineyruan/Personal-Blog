@@ -6,6 +6,7 @@ tags:
     - city representation
 category: 
     - My Gallery
+img: /images/CZQ190818DSC02076.jpg
 ---
 
 As a travelling enthusiast, there is no doubt that the state where I lived must somehow appear on my wishlist. During the two years in Ann Arbor, I also spent some time to explore Michigan. 

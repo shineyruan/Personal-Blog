@@ -1,5 +1,8 @@
 ---
 title: A Short Story about Me
+date: 2019-03-06 00:00:00
+type: "about"
+layout: "about"
 ---
 Greetings! Nice to meet you! I'm Ryan, a computer science engineer. I love everything that is equipped with fancy, high-end technology. I'm also a photographer, strongly interested in capturing everything that is beautiful and important in my daily life. As you go into my blog, I would like to share some long stories with you. Let's make friends!
 

@@ -1,0 +1,23 @@
+[
+    {
+        "avatar": "https://lejunjiang.com/images/avatar.jpg",
+        "name": "Lejun Jiang",
+        "introduction": "Actively exploring Engineering & Photography",
+        "url": "https://lejunjiang.com/",
+        "title": "Visit his website"
+    },
+    {
+        "avatar": "https://voyager1998.github.io/images/KUN04171-1.JPG",
+        "name": "Kun Huang",
+        "introduction": "Roboticist",
+        "url": "https://voyager1998.github.io/",
+        "title": "Visit his website"
+    },
+    {
+        "avatar": "https://i.postimg.cc/kXqm01FX/2019-01-14-22-10-51-1.jpg",
+        "name": "Jingliang Ren",
+        "introduction": "Meow.",
+        "url": "https://regina8023.github.io/",
+        "title": "Visit her website"
+    }
+]

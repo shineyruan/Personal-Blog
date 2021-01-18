@@ -1,5 +1,5 @@
 ---
-title: Wox &mdash; Making Your Windows 10 Better
+title: Wox — Making Your Windows 10 Better
 date: 2019-04-29 16:38:00
 tags: 
     - win10
@@ -8,6 +8,7 @@ tags:
     - search
 category: 
     - Tutorials
+img: /images/screenshot-wox-tutorial.png
 ---
 
 For Windows users, the biggest problem is that Windows system does not provide them with an efficient search engine for local file searching. Although the efficient Cortana search may cover part of the job, there is still no way for it to search for an arbitrary file in an arbitrary disk (or even Google Drive, if you had Google Drive File Stream) from the computer. In this post, I would recommend a light but efficient software for local file search called *Wox*.

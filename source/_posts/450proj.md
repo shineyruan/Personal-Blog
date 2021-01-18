@@ -7,7 +7,10 @@ tags:
 categories:
     - Projects
 comments: true
-mathjax: true
+cover: true
+coverImg: /images/450_MorphologicalAnalysis.png
+img: /images/450_MorphologicalAnalysis.png
+mathjax: false
 ---
 
 ***This project was served as the Undergraduate Major Design Experience at UM-SJTU Joint Institute, Shanghai Jiao Tong University.***

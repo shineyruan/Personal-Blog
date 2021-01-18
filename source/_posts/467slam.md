@@ -1,10 +1,13 @@
 ---
-title: SLAM &mdash; Simultaneous Localization And Mapping
+title: SLAM — Simultaneous Localization And Mapping
 date: 2020-01-13 21:47:27
 tags:
     - robotics
 categories:
     - Projects
+cover: true
+coverImg: /images/467-task5-map.png
+img: /images/467-task5-map.png
 ---
 
 Simultaneous Localization And Mapping, also known as SLAM, is a set of very important techniques in robotics, and it's still in active research. It aims at developing different algorithms for figuring out the position of the robot in the real world by the robot itself. 

@@ -6,6 +6,7 @@ tags:
     - city representation
 category: 
     - My Gallery
+img: /images/RZH403524.jpg
 ---
 
 Last summer, I went to Ireland for a trip. As a fan of the Irish boy band Westlife, I was really lucky to be able to get a ticket to their concert at Croke Park in Dublin. Meanwhile, I also had a chance to explore Dublin, a city with bars and Irish folk music.

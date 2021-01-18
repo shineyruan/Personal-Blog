@@ -6,6 +6,7 @@ tags:
     - city representation
 category: 
     - My Gallery
+img: /images/DSC01816.jpg
 ---
 
 Dearborn is a small town located near Detroit, 36 miles east of Ann Arbor.
