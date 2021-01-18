@@ -2,6 +2,7 @@
 title: ¡HOLA! Puerto Rico — 波多黎各：逃离大雪的海边度假计划
 tags:
   - photography
+  - travel journal
 categories:
   - Travel Journals
 date: 2020-03-13 18:45:19
