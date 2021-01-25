@@ -18,7 +18,7 @@ ROS (Robotics Operating System), is a robotics project development platform wide
 # Lab Materials
 The lab specs can be access [here](https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab1.html). A copy of PDF is also shown below.
 
-{% pdf https://github.com/f1tenth/f1tenth_labs/blob/master/lab1/latex/lab1.pdf %}
+{% pdf /pdf/f110_lab1.pdf %}
 
 The lab was built on the *F1Tenth Simulator*, which can be accessed [here](https://f1tenth.readthedocs.io/en/stable/going_forward/simulator/sim_install.html).
 
