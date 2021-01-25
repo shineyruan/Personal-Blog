@@ -13,7 +13,7 @@ Ann Arbor is the place for me to pursue my second bachelor's degree in the Unive
 
 <!-- more -->
 
-# Story of My Daily Life
+## Story of My Daily Life
 
 ![](/images/DSC01860.jpg)
 
@@ -35,7 +35,7 @@ Ann Arbor is the place for me to pursue my second bachelor's degree in the Unive
 
 *A tiny piece of sunset shining on the stem of a big tree. A nice contrast of orange and green.*
 
-# Ann Arbor Summer Festival
+## Ann Arbor Summer Festival
 
 It was really wonderful for me to find that, during the summer, the town of Ann Arbor was getting more and more busy. One of the major activities in Ann Arbor in summer is the Summer Festival, in which a lot of artists and artisans would come and show off their great works. With excitement, I went to the festival, and received lots of great memories.
 
@@ -56,7 +56,7 @@ It was really wonderful for me to find that, during the summer, the town of Ann 
 
 *A dancer is doing street dancing to attract people's attention. He was particularly dancing to me at that instant to show off his dancing skills.*
 
-# Força, Barça! 
+## Força, Barça! 
 
 In August, FC Barcelona came to Michigan Stadium and had a match with S.S.C. Napoli. Why having a soccer match at Michigan? I would say, it was definitely because Michigan Stadium is the largest stadium in the US, the third largest stadium across the world! Although it was not an important match for the two soccer clubs, it was still really exciting. With no surprise, FC Barcelona finally won the game.
 
@@ -68,7 +68,7 @@ In August, FC Barcelona came to Michigan Stadium and had a match with S.S.C. Nap
 
 *FC Barcelona &mdash; goal!*
 
-# "Blue Hour" in Ann Arbor
+## "Blue Hour" in Ann Arbor
 As I always finish my classes in the late afternoon, witnessing the beauty of the blue hour every day has been one of my favorite things. When the summer comes and the sky becomes clear, I finally got some chance to capture the romantic feelings in the blue hour.
 
 ![](/images/RZH8715post.jpg)

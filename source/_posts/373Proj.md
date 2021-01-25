@@ -29,13 +29,13 @@ In the passing winter semester, I took a very interesting course: [*Introduction
 
 Our final project is "Step on the White Tiles", which is inspired by a popular mobile game *Don't Tap the White Tiles (Chinese: 别踩白块)*. This is one of my proudest projects, so I'd like to write a blog to record this project experience and share these fun technical details with more people!
 
-# Background: Interactive Gaming
+## Background: Interactive Gaming
 
 Interactive gaming system has been developing fast for the past decades. From the Wii Remote controller created by Nintendo to the PlayStation series controller invented by Sony, it seems that people has become more and more fascinated about interactive gaming. Inspired by the existing interactive gaming system solutions, I, along with [Regina (Jingliang Ren)](https://regina8023.github.io), [Ken (Kun Huang)](https://voyager1998.github.io) and Shiyu Liu planned to develop a simple interactive gaming system based on [Actel SmartFusion&reg; SoC FPGA](https://www.microsemi.com/product-directory/soc-fpgas/1693-smartfusion), which is a simple implementation of a popular mobile game *Don't Tap the White Tiles* into the real world.
 
 ![A basic user interface for the original mobile game, Don't Tap the White Tiles.](/images/373_intro.png)
 
-# Game Rules
+## Game Rules
 
 There are 3 modes for our game: slow, medium and fast. Different modes have different numbers and speeds of tiles. At the beginning of the game, player will have 5 lives (health points).
 
@@ -44,17 +44,17 @@ There are 3 modes for our game: slow, medium and fast. Different modes have diff
 * 🌶 When player misses a white tile, he/she will lose one life (health point)
 * ☠️ When all lives go, game over!
 
-# Demo Videos
+## Demo Videos
 
 Here is a video captured during EECS373 Project Expo 😎!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2wzuU-qfCKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Technical Details
+## Technical Details
 
 In the following part, I will be introducing in detail how to build this cool interactive gaming system! As mentioned before, in this project we're using Actel SmartFusion&reg; SoC FPGA.
 
-## Component Overview
+### Component Overview
 
 ![](/images/373_diagram.png)
 
@@ -65,7 +65,7 @@ As indicated in the graph, we use one SmartFusion&reg; board to control 5 main p
 * Pixy camera for detecting if player's feet are on white tiles
 * Sound board for playing background music and sound effect
 
-## Code Environments
+### Code Environments
 
 As for the project developing environment, we're using [Libero SoC Design Software](https://www.microsemi.com/product-directory/design-resources/1750-libero-soc) as well as [Microsemi SoftConsole](https://www.microsemi.com/product-directory/design-tools/4879-softconsole#overview). The specific versions are:
 
@@ -75,7 +75,7 @@ As for the project developing environment, we're using [Libero SoC Design Softwa
 
 **Note that Libero SoC is neither forward nor backward compatible.** A Libero SoC v11.9 project is not compatible with a Libero SoC v11.9 SP3 project.
 
-## Memory-mapped I/O & Advanced Peripheral Bus
+### Memory-mapped I/O & Advanced Peripheral Bus
 
 In common sense, every memory address in a CPU corresponds to some place which can store data (aka "real memory"). However, in embedded systems, each input/output (I/O) device also corresponds to a specific memory address in the core. For these addresses, each of them has been mapped to an I/O device instead of "real memory", such as Analog-to-Digital Converter (ADC), Digital-to-Analog Converter (DAC), General-Purpose I/O (GPIO) pins, etc. Accessing these addresses through CPU is actually accessing their corresponding I/O devices.
 
@@ -96,7 +96,7 @@ By convention, in terms of APB, the CPU is called "master" while the peripherals
 
 ![A diagram of how we're making use of APB in our interactive game.](/images/373_apb.png)
 
-### Implementation in Verilog
+#### Implementation in Verilog
 
 While in most microcontrollers APB is not able to be modified because it is a very complicated circuit network soldered onto the PCB, with an FPGA we can take full advantage of that and customize our own APB. In Verilog, we can simply make use of an unused memory address and create the following module (APB interface):
 
@@ -127,11 +127,11 @@ endmodule
 
 We can see that all the I/O ports in the Verilog module has to strictly follow the APB convention mentioned above.
 
-## VGA
+### VGA
 
 VGA is short for *Video Graphics Array*. Although it is a relatively aged display method (introduced by IBM in 1987), its frequency (60Hz per frame) is good enough for our display purpose.
 
-### Basics
+#### Basics
 
 ![](/images/373_vga_pin.png)
 
@@ -153,7 +153,7 @@ Till now, we refresh the whole frame for one time.
 
 In a word, to project a desired video, we just need to **output correct RGB signal for each pixel in sequence**.
 
-### Implementation
+#### Implementation
 
 The main logic for VGA display is implemented in C code: it determines the positions of tiles, scores and health point; then writes these information in specific APB addresses. Verilog code is only for analyzing information from these APB addresses and generating corresponding signals.
 
@@ -165,7 +165,7 @@ __attribute__((interrupt)) void Fabric_IRQHandler(void){}
 
 is interrupt handler, which is responsible for refresh of the whole frame.
 
-#### Moving Tiles
+##### Moving Tiles
 
 There are 8 tiles in maximum in one frame. To make them look as random as possible, I randomly generate 3 attributes for each tile:
 
@@ -183,7 +183,7 @@ controls the new position of kth tile based on its old position.
 
 Besides, the attribute, **`left_on`**, **`right_on`**, will control color of the tile. When it is set to `true` inside `pixy.c`, the color will turn green or red.
 
-#### Score & Health Point
+##### Score & Health Point
 
 Once **`left_on`** or **`right_on`** is set to `true` inside `pixy.c`, the variable, **`score`**, will add one.
 
@@ -191,7 +191,7 @@ If **`left_on`** and **`right_on`** are `false` until the tile goes out of the f
 
 The display of score 🔢 and heart ❤️ are hard-coded in Verilog. Another way to show them is using Sprites + SRAM (see below).
 
-### Showing More Complicated Graphs
+#### Showing More Complicated Graphs
 
 Although the display for this game is fairly simple, we tried using [Sprites](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Sprite_(computer_graphics).html) and SRAM, which is used for complicated graphics (but didn't use it in final version of project).
 
@@ -206,7 +206,7 @@ However, there are two annoying issues when I implemented it:
 * Timing. When use APB and SRAM, timing of these two things need to be considered carefully. The `PREADY` cannot be set to high all the time since SRAM need one clock period to finish reading/writing. So `PREADY` should be delayed for one clock period.
 * Memory limitation. The total size of SRAM inside SmartFusion&reg; is only 64kB.
 
-## Nintendo Controller
+### Nintendo Controller
 
 For the controller for the user menu selection, we're using a classic Nintendo&reg; NES controller. This is a relatively aged controller, but its signal is easy to decode and it's sufficient for our design.
 
@@ -224,7 +224,7 @@ The system itself was nothing compared to the Propeller chip’s computing power
 
 {% endblockquote %}
 
-### Interfacing the Nintendo NES controller
+#### Interfacing the Nintendo NES controller
 
 On the back of the NES controller, it is actually organized as the following figure shows.
 
@@ -335,7 +335,7 @@ Then, we need to create our logic to pulse the `latch` and `clock` signal, and g
     end
 ```
 
-## LCD Display
+### LCD Display
 
 We use [Sparkfun's $20\times4$ serial enabled LCD display](https://www.sparkfun.com/products/9568) in our project. The interface of this LCD is actually really simple &mdash; just UART. If you send a character `a` to it through UART, it will display an "a" on the screen; if you send a string `Hello World` to it, it will display "Hello World".
 
@@ -351,7 +351,7 @@ It is worth noticing that this LCD module displays characters based on the posit
 
 ***Note. Two bytes separated by a comma means a consecutive ASCII character pair.* For instance, `0xFE, 0x80` means `0xFE` should be first sent to the LCD module, followed by a `0x80`.**
 
-### Constructing the User Menu
+#### Constructing the User Menu
 
 In terms of constructing a complete user menu, we use `>` as the prompt character for the selected option. We develop a data structure called `LCD_Display` to store the current contents of the 4 lines as well as the line index of the prompt character, and another `Menu` for multiple layers of the menu. For simplicity, we set each layer of the menu has a maximum size of 6.
 
@@ -359,11 +359,11 @@ In terms of constructing a complete user menu, we use `>` as the prompt characte
 
 For more detailed information, please visit our [GitHub repo](https://github.com/shineyruan/Don-t-Step-on-White-Tiles) and take a look at the `menu.[ch]` library files.
 
-## Pixy Camera
+### Pixy Camera
 
 [Pixy camera](https://pixycam.com/) is a small and responsive open-source camera developed by CREATE Lab, a part of the Robotics Institute at Carnegie Mellon University. It is equipped with color recognition and it can tell the location of the object in real time within its field of view. It has a very nice interface for MCU, which we can integrate into our SmartFusion&reg; board. Particularly, it is able to transmit its color recognition results to MCU via three interfaces: I2C, SPI, and UART. It is known that SPI has the highest data transmission rate among the three popular protocols, so we decide to utilize its SPI interface.
 
-### Porting Guidelines
+#### Porting Guidelines
 
 According to the [official documentation](https://docs.pixycam.com/wiki/doku.php?id=wiki:v1:porting_guide), Pixy camera has the following available ports:
 
@@ -379,7 +379,7 @@ with the numbering convention (looking at the back of Pixy):
 9   10
 ```
 
-### The Serial Protocol
+#### The Serial Protocol
 
 *Signature* is an important feature of Pixy. A signature represents a particular color: say you may want to set a signature for color red, another signature for color blue, and another signature for color yellow, etc. An *object* is the biggest object with a corresponding signature appearing in Pixy's field of view. That is, Pixy can hold as many objects as the signatures.
 
@@ -406,7 +406,7 @@ By the means mentioned above, we're able to get the center of the objects with s
 
 Meanwhile, there are also other advanced features of Pixy that we haven't explored. For details, please visit their [official website](https://pixycam.com/).
 
-## Sound Board
+### Sound Board
 
 We use [Adafruit Audio FX Mini Sound Board](https://www.adafruit.com/product/2341) for playing background music.
 
@@ -418,13 +418,13 @@ To trigger audio, pull down one of trigger pins - named `#0` thru `#10`. To stop
 
 The control of this board also uses the Verilog APB interface.
 
-# Source Code
+## Source Code
 
 All source codes with the latest updates can be accessed in my [GitHub repository](https://github.com/shineyruan/Don-t-Step-on-White-Tiles). A project directory structure is also provided below. **Special thanks to Regina for her drawing the project directory structure!**
 
 ![](/images/373_code_tree.png)
 
-# Acknowledgements
+## Acknowledgements
 
 For the entire work, I would like to express special thanks to:
 

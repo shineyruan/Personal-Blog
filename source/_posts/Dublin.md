@@ -13,7 +13,7 @@ Last summer, I went to Ireland for a trip. As a fan of the Irish boy band Westli
 
 <!-- more -->
 
-# Street Performers in Downtown Dublin
+## Street Performers in Downtown Dublin
 
 To my great surprise, street performing seems to be a very popular activity in Dublin. Walking in the streets in the city you could find a lot of street performers playing all kinds of musical instruments. Most of them are performing with great passion and happiness, as if they were just playing music on the street not for their living, but for fun.
 
@@ -24,7 +24,7 @@ To my great surprise, street performing seems to be a very popular activity in D
 ![](/images/190823_RZH3460.jpg)
 ![](/images/190823_RZH3530.jpg)
 
-# Westlife "The Twenty Tour" @Croke Park, Dublin
+## Westlife "The Twenty Tour" @Croke Park, Dublin
 
 "The Twenty Tour" is one of the major concert tours of Westlife after their reunion. I could hardly find a proper word to describe my excitement at the concert due to my poor vocabulary. It was really exciting, magnificent, and wonderful.
 

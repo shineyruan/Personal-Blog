@@ -13,7 +13,7 @@ In the [previous post](https://shineyruan.github.io/2019/03/15/vscode-tutorials/
 
 <!-- more -->
 
-# VS Code and C/C++
+## VS Code and C/C++
 
 C/C++ has been the most popular programming languages for decades, and almost all programming around the world know something about it. Although C/C++ programs might be a little bit trickier to compile in Windows system, VS code provides a nice solution for it.
 
@@ -22,7 +22,7 @@ This section was written with two Chinese blogs on Zhihu (知乎) as references.
 1. [Visual Studio Code 如何编写运行 C、C++ 程序？](https://www.zhihu.com/question/30315894)
 2. [用VSCode调试C/C++代码 (通过WSL)](https://zhuanlan.zhihu.com/p/44337349)
 
-## Compiling C/C++ in Windows
+### Compiling C/C++ in Windows
 
 As for finding a compiler for C/C++ program, I personally recommend *Clang for Windows* and *MinGW-w64*. In fact, each of them is a standalone C/C++ compiler for Windows, but why do we need both? This is because it is found that **there are no header files in Clang**, and we have to **add header files from MinGW-w64**.
 
@@ -182,7 +182,7 @@ As for finding a compiler for C/C++ program, I personally recommend *Clang for W
 
 **Note. The `.vscode` folder with config JSON files has to be put in EVERY project root folder you're working on to activate C/C++ compiling.**
 
-## Compiling C/C++ in *Windows Subsystem for Linux* (WSL)
+### Compiling C/C++ in *Windows Subsystem for Linux* (WSL)
 
 Another solution for compiling C/C++ codes is using WSL, which I am currently using for school work. The installation procedure for WSL is rather easy and has a lot of tutorials online, so I'm going to skip this part. We also just need a `.vscode` folder in each project folder we're working on with `tasks.json` and `launch.json` configuration files. These files are generally the same as the previous ones.
 

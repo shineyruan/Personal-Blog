@@ -18,7 +18,7 @@ img: /images/RZH8702post.jpg
 
 <!-- more -->
 
-# Blue Hour in Ann Arbor, MI
+## Blue Hour in Ann Arbor, MI
 
 ![](/images/RZH8715post.jpg)
 

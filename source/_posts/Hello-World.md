@@ -12,7 +12,7 @@ Welcome to my personal website! I am a first-year robotics master's student at t
 
 <!-- more -->
 
-# Relevant Classes
+## Relevant Classes
 
 With the advantage of being enrolled in a dual-degree program, I have taken a list of courses covering from electrical engineering to computer science, including but not limited to:
 
@@ -35,7 +35,7 @@ As a robotics master's student, I continue to explore a variety of areas closely
 * Linear Programming & Optimization &mdash; for robotic algorithm development
 * Deep Computer Vision &mdash; for robotic perception
 
-# Skills
+## Skills
 
 A list of skills that I've acquired from my experience includes but is not limited to:
 
@@ -46,11 +46,11 @@ A list of skills that I've acquired from my experience includes but is not limit
 * MATLAB
 * ARM Cortex-M3 project development
 
-# My Posts
+## My Posts
 
 This blog is divided into several sections, and each of them contains a list of posts. I'd love to record all of my accomplishments and happy moments here, to share them with you.
 
-## Projects
+### Projects
 
 I have recorded a number of my own projects [here](https://zhihaoruan.xyz/categories/Projects/) on this website. Some of these are course projects, while others may be research projects. Some of the featured projects are:
 
@@ -59,7 +59,7 @@ I have recorded a number of my own projects [here](https://zhihaoruan.xyz/catego
 * [SLAM — Simultaneous Localization And Mapping](https://zhihaoruan.xyz/2020/01/13/467slam/)
 * [Real-Time On-Device Flow Statistics Detection and Prediction](https://zhihaoruan.xyz/2020/08/29/450proj/)
 
-## Tutorials
+### Tutorials
 
 *Tutorials* section contains a lot of guidelines on making use of some really nice softwares to improve your work efficiency.
 
@@ -68,7 +68,7 @@ I have recorded a number of my own projects [here](https://zhihaoruan.xyz/catego
 * [Getting Started with Embedded Systems in Visual Studio Code](https://zhihaoruan.xyz/2019/04/29/vscode-stm32/)
 * [Wox &mdash; Making Your Windows 10 Better!](https://zhihaoruan.xyz/2019/04/29/wox-tutorials/)
 
-## My Gallery
+### My Gallery
 
 Besides computer science, I'm also fond of photography as well as travelling around the world. I love to write travel journals to commemorate those precious moments. 
 

@@ -14,13 +14,13 @@ In the [previous post](https://shineyruan.github.io/2019/03/15/vscode-tutorials/
 
 <!-- more -->
 
-# VS Code and STM32
+## VS Code and STM32
 
 VS Code has an open-source solution for STM32 application developments. This solution is based on an extension called [Platform IO](https://platformio.org/). This extension does no more than integrating the ARM-GCC toolchain as well as OpenOCD debugger with Python scripts for automatic compiling, uploading and debugging. It provides a variety of popular STM32 frameworks, such as Arduino, Standard Peripheral Library, STM32Cube, etc. It also supports almost all types of popular STM32 development boards in the market. With this extension, we can easy code, compile and upload codes to the MCU all in VS Code. In a word, it is a combination of VS Code's excellent coding autocomplete feature and the open-source ARM-GCC toolchain.
 
 ![vscode-stm32](/images/screenshot-vscode-tutorial-2.png)
 
-## Adding a customized framework to Platform IO core
+### Adding a customized framework to Platform IO core
 
 Although Platform IO has provided a large number of framework for a variety of boards, certain types of boards may lack support from some framework. Take my development experience for an example, I use STM32 value-line discovery (STM32VLDISCOVERY) board for project use, while the IDE does not offer a standard peripheral library framework support for it, which means that I cannot use standard peripheral library function calls in my project development. So how can I modify the core and add the support manually? Here comes the trick.
 
