@@ -133,8 +133,50 @@ A `ros::NodeHandle` is an extra layer in C++ that provides RAII-style startup & 
 
 `ros::Rate` specifies the rate of spinning loop of this ROS node.
 
+# Implementing Custom Messages
+In this section I focused on implementing a custom ROS message type `scan_range`, which includes the min/max range in the laser scan. According to the [tutorials of creating custom ROS messages](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv), I created the following ROS message `scan_range.msg`:
+```text
+std_msgs/Header header
+std_msgs/Float64 range_min
+std_msgs/Float64 range_max
+```
+After resolving all Catkin package dependencies in CMakeList & ROS package manifest file (`package.xml`), I finally reached the following output.
+```bash
+> rosmsg show lab1/scan_range
+std_msgs/Header header
+  uint32 seq
+  time stamp
+  string frame_id
+std_msgs/Float64 range_min
+  float64 data
+std_msgs/Float64 range_max
+  float64 data
+```
+
+## Answers to Section 5 Written Questions
+- **Why did you include the header file of the message file instead of the message file itself?**
+
+According to ROS mechanisms, any customized ROS messages will be generated into a templated message header file to be included in the C++ code. The message file itself is not part of standard C++ and it cannot be parsed by C++ compilers.
+
+- **In the documentation of the LaserScan message there was also a data type called Header. What is that? Can you also include it in your message file? What information does it provide? Include Header in your message file too.**
+
+The `Header` provides information on the sequential order, the timestamp, and the frame ID of the instant when the message is published. It is very useful when one would like to make use of time information of the messages received. The header file has been included in my custom ROS message.
 
 
+# Recording and Publishing Bag Files
+This section aims at playing with `rosbag` and bag files in ROS. ROS bag files are a certain kind of files that targets at recording ROS messages, so that it can be replayed elsewhere afterwards. ROS Bag is extremely helpful when one would like to collect data in real-world experiments. 
+
+## Answers to Section 6 Written Questions
+- **Where does the bag file get saved? How can you change where it is saved?**
+
+By default the bag file is saved at the current directory. We can also change the directory by adding `-o` such as:
+```bash
+rosbag record -o ../bagfiles/my_rosbag_recordings.bag
+```
+
+- **Where will the bag file be saved if you were launching the recording of bagfile record through a launch file. How can you change where it is saved?**
+
+By default the bag file is saved at the current directory. We can also change the directory by appending `args=../bagfiles/my_rosbag_recordings.bag` to the corresponding node in the launch file.
 
 
 
