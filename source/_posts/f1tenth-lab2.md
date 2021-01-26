@@ -40,71 +40,9 @@ In practice, we use LiDAR results to calculate TTC for each beam. Specifically, 
 
 We also have `float32[] ranges` in each `LaserScan` message, which gives us the distance to obstacle in the corresponding direction angle. Namely, `ranges[i] <--> angle_min + i * angle_increment`.
 
-With all the information, we can write our AEB node as follows. 
-```cpp
-/**
- * @brief The class that handles emergency braking
- * 
- */
-class Safety {
-private:
-    ros::NodeHandle n;
-    double speed;
-    const double deceleration;
+Given the above information, it is not difficult for us to write our AEB ROS node.
 
-    // ROS subscribers and publishers
-    ros::Subscriber odom_subscriber;
-    ros::Subscriber scan_subscriber;
-    ros::Publisher publish_bool;
-    ros::Publisher publish_ackermann;
+## References
+F1/10 Autonomous Racing Lecture recordings:
 
-public:
-    Safety() : deceleration(8.26)  // F1/10 racing car deceleration: 8.26 m/s^2
-    {
-        n = ros::NodeHandle();
-        speed = 0.0;
-
-        // create ROS subscribers and publishers
-        odom_subscriber = n.subscribe("/odom", 1, &Safety::odom_callback, this);
-        scan_subscriber = n.subscribe("/scan", 1, &Safety::scan_callback, this);
-        publish_bool = n.advertise<std_msgs::Bool>("/brake_bool", 1);
-        publish_ackermann = n.advertise<ackermann_msgs::AckermannDriveStamped>("/brake", 1);
-    }
-
-    void odom_callback(const nav_msgs::Odometry::ConstPtr &odom_msg) {
-        // update current speed
-        geometry_msgs::Vector3 velocity = odom_msg->twist.twist.linear;
-        speed = lab2_utils::vecLength(velocity);
-    }
-
-    void scan_callback(const sensor_msgs::LaserScan::ConstPtr &scan_msg) {
-        unsigned int N = scan_msg->ranges.size();
-        for (unsigned int i = 0; i < N; ++i) {
-            double range = scan_msg->ranges[i];
-            if (range > scan_msg->range_max || range < scan_msg->range_min) continue;
-
-            double angle_to_heading = scan_msg->angle_min + i * scan_msg->angle_increment;
-            double projected_speed = std::max(-1 * speed * std::cos(angle_to_heading), 0.0);
-
-            // calculate TTC
-            double ttc = (projected_speed <= 0.0)
-                             ? std::numeric_limits<double>::infinity()
-                             : range / (projected_speed);
-
-            // publish drive/brake message
-            if (ttc <= 2.5 * speed / deceleration) {  // 2.5 is a parameter (magic number) from simulation experiments
-                std_msgs::Bool msg_bool;
-                msg_bool.data = true;
-
-                ackermann_msgs::AckermannDriveStamped msg_brake;
-                msg_brake.drive.speed = 0.f;
-
-                publish_bool.publish(msg_bool);
-                publish_ackermann.publish(msg_brake);
-
-                ROS_INFO("Emergency brake message sent");
-            }
-        }
-    }
-};
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jZR3tk9IWlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
