@@ -182,5 +182,12 @@ rosbag record -o ../bagfiles/my_rosbag_recordings.bag
 
 By default the bag file is saved at the current directory. We can also change the directory by appending `args=../bagfiles/my_rosbag_recordings.bag` to the corresponding node in the launch file.
 
+## References
+F1/10 Autonomous Racing Lecture: Course Introduction
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zENhppcxwzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+F1/10 Autonomous Racing Lecture: Using the Simulator
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q71OKxztppA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
