@@ -10,6 +10,10 @@ tags:
 
 ***This series of blogs marks the journey of my F1/10 Autonomous Racing Cars.***
 
+***All my source codes can be accessed [here](https://github.com/shineyruan/F1Tenth_Labs).***
+
+<!-- more -->
+
 ## Overview
 In Spring 2021 I finally got a chance to join the F1/10 Autonomous Racing Car Lab at Penn, supervised by [Prof. Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/). To start my autonomous racing journey, I followed the [official tutorials](https://f1tenth-coursekit.readthedocs.io/en/stable/index.html) and studied the labs & projects there. 
 
