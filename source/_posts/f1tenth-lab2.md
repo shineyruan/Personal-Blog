@@ -6,6 +6,7 @@ categories:
 tags:
     - F1Tenth
     - F1/10 Racing
+img: /images/f1tenth-lab2.png
 ---
 
 ***This series of blogs marks the journey of my F1/10 Autonomous Racing Cars.***
