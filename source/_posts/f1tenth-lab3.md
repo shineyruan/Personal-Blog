@@ -67,6 +67,14 @@ double pid_control() {
 }
 ```
 
+## PID Tuning
+Tuning the PID controller is never an easy task. Sometimes the three parameters $K_p, K_i, K_d$ can be very problematic to tune. From my experience I would try in the following way:
+1. First, adjust $K_p$ to the maximum gain value (value with max performance), keeping $K_i=0, K_d=0$.
+2. Second, tune $K_i$ to the maximum gain value.
+3. Last, tune $K_d$ to eliminate the system oscillations. 
+
+We can also use the [Ziegler–Nichols method](https://en.wikipedia.org/wiki/Ziegler%E2%80%93Nichols_method) to tune PID controller step by step.
+
 ## Demo video
 This video demos the wall follower without any look-ahead distance. The car would run into the wall at the bottom side of the corridor.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FhsWLrvEbTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
