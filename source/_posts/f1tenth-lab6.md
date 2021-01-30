@@ -48,9 +48,35 @@ In summary, the Pure Pursuit algorithm can be implemented in the following steps
 3. Set the steering angle proportional to the curvature.
 
 ## Actual Implementation
+This section summarizes a list of issues when I was implementing the pure pursuit algorithm in ROS and C++.
+
+1. **Running the particle filter**.
+
+In real practice we can never know the ground truth position of the vehicle. The position of the vehicle can only be measured using some kind of sensors and algorithms. For this lab I made use of a decent particle filter ROS package written by [MIT car racing team](https://github.com/mit-racecar/particle_filter). As I was using ROS Noetic with Python 3 while this package was written in Python 2, I made a fork of their project and spent some time converting their code into Python 3 to fit in my workspace. For future reference, the Python 3 version of this particle filter can be accessed [here](https://github.com/shineyruan/particle_filter).
+
+It is worth mentioning that this particle filter provides several options for laser beam ray computing, and all of them depends on a ray-marching library called [RangeLibc](https://github.com/kctess5/range_libc). The original RangeLibc was also written in Python 2 and I also made [a fork of it](https://github.com/shineyruan/range_libc) and converted it into Python 3. With my modification the entire particle filter pipeline should now be able to run successfully in Python 3 and ROS Noetic.
+
+2. **Choosing the goal waypoint from current position and lookahead distance.**
+
+In general, there are multiple ways to choose the goal waypoint for the vehicle. Some options include choosing the waypoint in the list that has distance closest to $L$ from the current vehicle position, interpolating a waypoint with distance exactly equal to $L$ from the closest waypoint in the range and out of the range, and choosing the waypoint closest to $L$ from those out of the range. As for my implementation, I chose to implement in the following way:
+- Starting from the current position, pick the first waypoint that has a distance larger than $L$ from the current position.
+
+Notice that my implementation is current not the best option, as it has not incorporate the current orientation of the car and it might cause troubles when the next goal is somewhere behind the vehicle.
+
+3. **Convert the goal coordinates to local frame before calculating the curvature of the arc.**
+
+As the curvature calculation assumes that our vehicle is always facing in the positive $x$ direction, we must convert the goal waypoint into local frame before calculations.
+
+4. **Use signed curvature for the steering angle.**
+
+In real practice the next waypoint could be either in the front-left or front-right of the vehicle, resulting in the fact that the curvature could either be concave or convex. Hence it is important for us to consider the sign of the curvature so that we can steer our car in the correct direction.
 
 
 ## Demo Videos
-The Pure Pursuit algorithm with the vehicle running in 5m/s
+The Pure Pursuit algorithm with the vehicle running in 5m/s. Green trajectory is the pre-recorded waypoints; red dot is the goal waypoint for the vehicle; blue dot is the current position of the vehicle (using ground truth position in simulator).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qs2StzvzXHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## References
+F1/10 Autonomous Racing Lecture: Pure Pursuit
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r_FEKkeN_fg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
