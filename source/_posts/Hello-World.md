@@ -6,7 +6,7 @@ comments: false
 img: /images/RZH8697post.jpg
 ---
 
-Welcome to my personal website! I am a first-year robotics master's student at the University of Pennsylvania. I received my undergraduate degree in computer science engineering (CSE) at the University of Michigan, with a second degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. You can find a short story about me [here](https://shineyruan.github.io/about/). A copy of my [CV](https://zhihaoruan.xyz/curriculum-vitae) and a copy of my [resume](https://zhihaoruan.xyz/resume) can both be found on my website.
+Welcome to my personal website! I am a first-year robotics master's student at the University of Pennsylvania. Prior to Penn, I received my B.S. degree in computer science engineering (CSE) at the University of Michigan, with a second B.S. degree in electrical and computer engineering (ECE) at Shanghai Jiao Tong University. A copy of my [CV](https://zhihaoruan.xyz/curriculum-vitae) and a copy of my [resume](https://zhihaoruan.xyz/resume) can both be found on my website.
 
 ![A picture of myself.](/images/RZH8697post.jpg)
 
@@ -31,9 +31,10 @@ With the advantage of being enrolled in a dual-degree program, I have taken a li
 * Operating Systems
 
 As a robotics master's student, I continue to explore a variety of areas closely related to robotics, include but not limited to
-* Computer Graphics &mdash; for robotic simulation & visualization
-* Linear Programming & Optimization &mdash; for robotic algorithm development
 * Deep Computer Vision &mdash; for robotic perception
+* Computer Graphics &mdash; for robotic simulation & visualization
+* Linear Programming & Optimization, Modern Convex Optimization &mdash; for robotic algorithm development
+* Learning in Robotics &mdash; for an in-depth study in filtering, mapping, control, and RL (Reinforcement Learning) problems
 
 ## Skills
 
@@ -54,6 +55,7 @@ This blog is divided into several sections, and each of them contains a list of 
 
 I have recorded a number of my own projects [here](https://zhihaoruan.xyz/categories/Projects/) on this website. Some of these are course projects, while others may be research projects. Some of the featured projects are:
 
+* [The F1/10 Autonomous Racing Project Series at Penn](https://zhihaoruan.xyz/tags/F1Tenth/)
 * [Minecraft Game Programming](https://zhihaoruan.xyz/2020/12/09/560proj/)
 * [An Interactive Game &mdash; Step On the White Tiles!](https://zhihaoruan.xyz/2019/05/03/373Proj/)
 * [SLAM — Simultaneous Localization And Mapping](https://zhihaoruan.xyz/2020/01/13/467slam/)
