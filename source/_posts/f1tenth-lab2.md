@@ -28,7 +28,9 @@ The lab materials can be accessed [here](https://f1tenth-coursekit.readthedocs.i
 The lab was built on the *F1Tenth Simulator*, which can be accessed [here](https://f1tenth.readthedocs.io/en/stable/going_forward/simulator/sim_install.html).
 
 ## Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vVHXqJv6NbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/vVHXqJv6NbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Time-To-Collision
 TTC (Time-To-Collision) is the time it would take for the vehicle to collide with an obstacle given its current heading and velocity. TTC can be calculated with the following format: 
@@ -46,4 +48,6 @@ Given the above information, it is not difficult for us to write our AEB ROS nod
 ## References
 F1/10 Autonomous Racing Lecture recordings:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jZR3tk9IWlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/jZR3tk9IWlY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

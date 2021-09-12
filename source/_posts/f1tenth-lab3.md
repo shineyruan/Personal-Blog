@@ -77,13 +77,18 @@ We can also use the [Ziegler–Nichols method](https://en.wikipedia.org/wiki/Zie
 
 ## Demo video
 This video demos the wall follower without any look-ahead distance. The car would run into the wall at the bottom side of the corridor.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FhsWLrvEbTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/FhsWLrvEbTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 This video demonstrates the wall follower with proper look-ahead distance adjustment, and the car is able to finish an entire loop with no collisions.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uIZcXgpVGig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/uIZcXgpVGig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## References
 F1/10 Autonomous Racing Lecture: PID Controller & Laplacian Domain
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVRcJf4Rj9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/PVRcJf4Rj9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 

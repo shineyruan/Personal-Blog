@@ -26,8 +26,12 @@ In the fall of 2019, I took the course [*Autonomous Robotics (EECS 467)*](https:
 
 The following is a demo video of our algorithm visualization on a laptop.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zsRtV_YeBbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/zsRtV_YeBbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 The following video is a demo of our robot car running in the unknown environment.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qiB47C4CRBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/qiB47C4CRBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

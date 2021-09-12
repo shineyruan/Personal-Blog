@@ -55,11 +55,15 @@ One of the corner case in testing the algorithm is the corner of the wall. As th
 To address this issue, I added a "safety angle" around the bubble, which basically sets the laser beams too close to the direction of obstacles to distance 0. For instance, a safety angle of 20 degrees would set additional laser beams in the direction leftwards of the bubble by 20 degrees and rightwards of that bubble by 20 degrees also to 0. This simple method would prevent the vehicle to get too close to the obstacle, even if the best direction of free space happens to be next to the obstacle.
 
 ## Demo Videos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDPHbiQ0Ds8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/tDPHbiQ0Ds8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## References
 F1/10 Autonomous Racing Lecture: Reactive Methods for Planning
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7VLYP-z9hTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/7VLYP-z9hTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 
